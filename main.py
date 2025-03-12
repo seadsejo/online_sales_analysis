@@ -13,4 +13,9 @@ print("Displaying available products: ")
 manager.display_all_products()
 
 total = manager.total_inventory_value()
-print(f"Total inventory value is: {total:.2f}$")
+print(f"\nTotal inventory value is: {total:.2f}$\n")
+
+print(manager.product_removal("Headphones"))
+
+print("\nDisplaying available products: ")
+manager.display_all_products()
